@@ -1,10 +1,12 @@
 import React, { Component } from 'react'
 
-export class TodoList extends Component {
+class TodoList extends Component {
     render() {
         return (
             <div>
-                
+                <div className="header">
+                    <h1>My To Do List</h1>
+                </div>
             </div>
         )
     }
