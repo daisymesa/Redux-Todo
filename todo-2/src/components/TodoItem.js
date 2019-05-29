@@ -4,6 +4,9 @@ const TodoItem= (props) => {
     return (
         <div>
             <div className="to-do-item">
+                <p>
+                {props.todo.value}
+                </p>
 
             </div>
 
